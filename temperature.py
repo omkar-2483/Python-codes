@@ -1,11 +1,12 @@
 #convert temperature from celcius to farheneite
 
-tempC=float(input("Enter temperarure in degree celcius: "))
+tempC=float(input("Enter temperature in degree Celsius: "))
 tempF=1.8*tempC+32
-print("temperature in farheneite :",tempF)
+print("temperature in Fahrenheit :",tempF)
+
 
 #convert temperature from farheneite to celcius
-tempf=float(input("temperature in farhenheit:"))
+tempf=float(input("temperature in Fahrenheit:"))
 tempc=(tempf-32)*5/9 #formula of conversion 
 print('temperature in Fahrenheit is:',tempf, '°F')
 print("temperature in Celsius is:",tempc, "°C")
